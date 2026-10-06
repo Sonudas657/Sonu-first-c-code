@@ -1,7 +1,16 @@
-# include<stdio.h>
-int main (){
+ include<stdio.h>
 
+int main(){
+    int a = 10;
+    int b = 34;
+    printf("a is : %d\n",a);
+    printf("b is : %d\n",b);
+    int c = a + b;
+    printf("c is :%d\n",c);
 
-printf("hello");
+    
+
 return 0;
+
+    
 }
