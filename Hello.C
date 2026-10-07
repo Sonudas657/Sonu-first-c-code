@@ -2,12 +2,20 @@
 # include<math.h>
 
 int main(){
-    int a = 10;
-    int b = 34;
-    printf("%d\n" , a + b / a * b);   // 34/10 = 3 ,34*3 = 112 , 112 + 10 = 112
-    printf("%d\n" , a - b / a * b);   //34/10 = 3 ,-34*3 = 112 , -112 + 10 = -92
-    printf("%d\n" , a + (b / a) * b);  // 34/10 = 3 ,34*3 = 112 , 112 + 10 = 112
-    printf("%d\n" , a * b / a * b);  //34 * 10 / 10 = 34 , 34 * 34 = 1156
+    int a ;
+    int b ;
+    printf("Enter a is:");
+    scanf("%d\n", &a);
+    printf("Enter b is :");
+    scanf("%f\n", &b);
+    float sum = a + b;
+    float multiply = a * b;
+    if(sum > 50 ,
+        multiply > 60 ){
+        printf("large  digit");
+    } else{
+        printf("smaller digit");
+    }
 
 
 
