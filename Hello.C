@@ -1,21 +1,32 @@
 # include<stdio.h>
-# include<math.h>
+
 
 int main(){
-    int a ;
-    int b ;
-    printf("Enter a is:");
-    scanf("%d\n", &a);
-    printf("Enter b is :");
-    scanf("%f\n", &b);
-    float sum = a + b;
-    float multiply = a * b;
-    if(sum > 50 ,
-        multiply > 60 ){
-        printf("large  digit");
-    } else{
-        printf("smaller digit");
+    int day ;
+    printf("Enter day(1 - 7):");
+    scanf("%d", &day);
+    switch(day){
+        case 1 : printf("Monday\n");
+        break;
+        case 2 : printf("Tuesday\n");
+        break;
+        case 3 : printf("Wednesday\n");
+        break;
+        case 4 : printf("Thursday\n");
+        break;
+        case 5 : printf("Friday\n");
+        break;
+        case 6 : printf("Saturday\n");
+        break;
+        case 7 : printf("Sunday\n");
+        break;
+        dafault: printf("not a valid day\n");
+        
     }
+    
+
+    
+    
 
 
 
