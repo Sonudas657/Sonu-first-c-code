@@ -1,0 +1,12 @@
+#include<stdio.>
+int main(){
+  int a;
+  int b;
+  printf("Enter a is :");
+  scanf("%d", &a);
+  printf("Enter b is :");
+  scanf("%d", &b);
+  printf("average = %d\n", (a + b)/2);
+  return 0;
+}
+
