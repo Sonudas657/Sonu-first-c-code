@@ -1,38 +1,33 @@
 # include<stdio.h>
-
-
 int main(){
-    int day ;
-    printf("Enter day(1 - 7):");
-    scanf("%d", &day);
-    switch(day){
-        case 1 : printf("Monday\n");
-        break;
-        case 2 : printf("Tuesday\n");
-        break;
-        case 3 : printf("Wednesday\n");
-        break;
-        case 4 : printf("Thursday\n");
-        break;
-        case 5 : printf("Friday\n");
-        break;
-        case 6 : printf("Saturday\n");
-        break;
-        case 7 : printf("Sunday\n");
-        break;
-        dafault: printf("not a valid day\n");
-        
-    }
-    
 
-    
-    
+    // Write a C program that accepts two integers from the user and displays their sum, difference, and product.
+     int a;
+     int b;
+     // input section 
+     printf("Enter the value of a:");
+     scanf("%d",&a);
+     printf("Enter the value of b:");
+     scanf("%d", &b);
+     // calculation section 
+     int sum = a + b;
+     int difference = a - b;
+     int product = a * b;
+     // out put section 
+     printf("Simple calculator\n");
+     printf("The sum of two inegers is: %d\n ", sum);
+     printf("The difference of two integers is: %d\n", difference);
+     printf("The product of two intgers is :%d\n ", product);
 
 
+    return 0;
 
-
-
-return 0;
-
-    
 }
+
+    
+      
+       
+    
+
+
+    
